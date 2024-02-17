@@ -1,0 +1,2 @@
+<virtualDirectory path="/" physicalPath="%SystemDrive%\inetpub\wwwroot" />
+<virtualDirectory path="/" physicalPath="C:\test" />
