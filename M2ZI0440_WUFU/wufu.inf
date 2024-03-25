@@ -1,0 +1,47 @@
+[Version] 
+Signature   = "$WINDOWS NT$" 
+Provider    = %Provider% 
+Class       = Firmware 
+ClassGuid   = {f2e7dd72-6468-4e36-b6f1-6488f42c1b52} 
+DriverVer   = 02/23/2024,1.0.2402.440
+CatalogFile = catalog.cat 
+PnpLockdown = 1 
+ 
+[Manufacturer] 
+%MfgName% = Firmware,NTamd64 
+ 
+[Firmware.NTamd64] 
+%FirmwareDesc% = Firmware_Install,UEFI\RES_{b6d057e4-ae8e-465e-8f2c-85bd887ac1a7} 
+ 
+[Firmware_Install.NT] 
+CopyFiles = Firmware_CopyFiles 
+ 
+[Firmware_CopyFiles] 
+SigFvCap.bin
+ 
+[Firmware_Install.NT.Hw] 
+AddReg = Firmware_AddReg 
+ 
+[Firmware_AddReg] 
+HKR,,FirmwareId,,{b6d057e4-ae8e-465e-8f2c-85bd887ac1a7} 
+HKR,,FirmwareVersion,%REG_DWORD%,0x0182ba35
+HKR,,FirmwareFilename,,{b6d057e4-ae8e-465e-8f2c-85bd887ac1a7}\SigFvCap.bin 
+ 
+[SourceDisksNames] 
+1 = %DiskName% 
+ 
+[SourceDisksFiles] 
+SigFvCap.bin = 1 
+ 
+[DestinationDirs] 
+DefaultDestDir = %DIRID_WINDOWS%,Firmware\{b6d057e4-ae8e-465e-8f2c-85bd887ac1a7} 
+ 
+[Strings] 
+; localizable 
+Provider     = "LG Electronics" 
+MfgName      = "LG Electronics" 
+FirmwareDesc = "LGE System Firmware" 
+DiskName     = "Firmware Update" 
+; non-localizable 
+DIRID_WINDOWS = 10 
+REG_DWORD     = 0x00010001

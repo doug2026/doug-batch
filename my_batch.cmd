@@ -4,6 +4,47 @@
 
 goto todayStudy
 
+:: πÆ¿⁄ø≠¿ª √‚∑¬(πÆ¿⁄ø≠¿∫ Space∑Œ ±∏∫–µ )
+for %%c in (miku daisuki) do (
+	echo %%c
+)
+
+:: «ˆ¿Á Directory¿« ∆ƒ¿œ ∏Ò∑œ √‚∑¬
+for %%d in (*) do (
+	echo %%d
+)
+
+:: «ˆ¿Á Directory¿« ∆ƒ¿œ ∏Ò∑œ∞˙ String √‚∑¬
+for %%d in (* miku daisuki) do (
+	echo %%d
+)
+
+:: ∆Øºˆ«— ø…º«(∆Øºˆ πÆ¿⁄, Space∑Œ ±∏∫–µ )
+for %%d in (1;2 3,4) do (
+	echo %%d
+)
+
+:: pause with no message
+pause > nul
+
+:: for /r c:\ %%a in (*.mp4 *.avi) do echo %%a
+pause
+
+:: /d (/D) : Directory for
+for /d %%a in (*) do echo %%a
+
+:: ¡ı∞® For - Ω√¿€∞˙ ≥°(Start,Delta,End)
+for /L %%a in (1,3,100) do echo %%a
+
+:: /r (/R) : Recursive for
+for /r d:\ %%a in (*.tx0, *.mp4) do echo %%a
+
+:: /f (/F) : File for
+:: tokens : ±∏∫–¿⁄∑Œ ≥™¿ßæÓ¡¯ ∞Õ¿ª ∞¢∞¢ ≈‰≈´¿Ã∂Û «—¥Ÿ.
+:: delims(delimeters) : πÆ¿⁄ø≠¿ª ≥™¥©¥¬ ±‚»£ πÆ¿⁄, ª˝∞ΩΩ√ ∞¯πÈ(Ω∫∆‰¿ÃΩ∫, ≈«)¿∏∑Œ ≥™¥∂¥Ÿ.
+:: skip :
+:: eol :
+:: usebackq :
 for /f "tokens=3" %%a in ('type test.log') do (
 	echo %%a
 )
@@ -12,43 +53,19 @@ for /f "tokens=4 delims='=/'" %%a in ('type test.log') do (
 	echo %%a
 )
 
-:: Î¨∏ÏûêÏó¥ÏùÑ Ï∂úÎ†•
-for %%c in (miku daisuki) do (
-	echo %%c
-)
+for /f "delims=: tokens=1,2,3" %%a in ("hello:world!:this is doug.") do echo %%a - %%b - %%c
 
-:: ÌòÑÏû¨ DirectoryÏùò ÌååÏùº Î™©Î°ù Ï∂úÎ†•
-for %%d in (*) do (
-	echo %%d
-)
 
-:: ÌòÑÏû¨ DirectoryÏùò ÌååÏùº Î™©Î°ù Ï∂úÎ†•
-for %%d in (* miku daisuki) do (
-	echo %%d
-)
-
-:: ÌäπÏàòÌïú ÏòµÏÖò
-for %%d in (1;2 3,4) do (
-	echo %%d
-)
-
-:: ÏãúÏûëÍ≥º ÎÅù
-for /L %%a in (1,2,100) do echo %%a
-
-pause > nul
-
-:: for /r c:\ %%a in (*.mp4 *.avi) do echo %%a
+type c:\Windows\System32\drivers\etc\hosts
 pause
-
-for /d %%a in (*) do echo %%a
-
-for /f "delims=: tokens=1,2" %%a in ("hello:world") do echo %%a-%%b
-
+:: 15 lines¿ª skip«œ∞Ì #∑Œ ±∏∫–µ» √ππ¯¬∞ String¿ª «•Ω√«œ∂Û.
 for /f "skip=15 delims='#' tokens=1" %%a in (c:\Windows\System32\drivers\etc\hosts) do echo %%a
+:: 15 lines¿ª skip«œ∞Ì ±∏∫–¿⁄∞° æ¯¿∏π«∑Œ ∞¢ «‡¿ª ≈Î√§∑Œ ≈‰≈´¿Ã µ«æÓº≠ %%aø° ¥Î¿¿µ»¥Ÿ.
 for /f "skip=15 delims= tokens=1" %%a in (c:\Windows\System32\drivers\etc\hosts) do echo %%a
 
 @REM Commenting multiple lines in DOS batch file
 @REM Ctrl-Q
+
 
 :todayStudy
 
