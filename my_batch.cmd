@@ -71,6 +71,16 @@ for /f "skip=15 delims= tokens=1" %%a in (c:\Windows\System32\drivers\etc\hosts)
 
 ::echo.This is batch programming sample.
 
+:: git command
+:: git clone
+
+:: git ddd .
+:: git commit -m "This is ..."
+:: git push -u origin main
+
+:: git fetch
+:: git pull
+
 @echo on
 ::Goto the location in the script
 pushd %~dp0
