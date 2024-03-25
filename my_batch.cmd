@@ -71,8 +71,10 @@ for /f "skip=15 delims= tokens=1" %%a in (c:\Windows\System32\drivers\etc\hosts)
 
 ::echo.This is batch programming sample.
 
+@echo on
 ::Goto the location in the script
 pushd %~dp0
+@echo off
 
 echo.LCD Firmware update tool 2024/02/20
 echo.
