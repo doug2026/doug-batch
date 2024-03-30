@@ -78,13 +78,41 @@ for /f "skip=15 delims= tokens=1" %%a in (c:\Windows\System32\drivers\etc\hosts)
 :: git commit -m "This is ..."
 :: git push -u origin main
 
-:: git fetch
-:: git pull
+:: git pull origin main
+:: git fetch origin
+
+::Goto the location in the script
+title studying batch programming of file
+SET A=%0
+SET B=%~d0
+SET C=%~p0
+SET D=%~n0
+SET E=%~x0
+SET F=%~dp0
+SET G=%~d0\%~p0
+
+echo %A%
+echo %B%
+echo %C%
+echo %D%
+echo %E%
+echo %F%
+echo %G%
 
 @echo on
-::Goto the location in the script
+
 pushd %~dp0
+cd ..\..
+cd
+popd
+cd
+pause
+
 @echo off
+
+goto END
+
+
 
 echo.LCD Firmware update tool 2024/02/20
 echo.
