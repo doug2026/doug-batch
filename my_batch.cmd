@@ -79,21 +79,6 @@ for /f "tokens=6 delims== " %%i in ('"wmic cpu get Caption /value | findstr /b /
 
 goto END
 
-
-:todayStudy
-
-::echo.This is batch programming sample.
-
-:: git command
-:: git clone
-
-:: git ddd .
-:: git commit -m "This is ..."
-:: git push -u origin main
-
-:: git pull origin main
-:: git fetch origin
-
 ::Goto the location in the script
 title studying batch programming of file
 SET A=%0
@@ -144,8 +129,37 @@ pause
 
 ::@echo off
 
-goto END
+:todayStudy
 
+title batch programming ...
+@echo on
+pushd %~dp0
+
+
+title studying git ...
+:: git clone
+:: git remote -v
+:: git branch
+:: git checkout -b <branch_name>  	:: branch_name branch 생성 및 이동
+:: git checkout <branch_name> 		:: branch_name branch로 이동
+:: git checkout <commit_hask_key> 	:: 브랜치 이름 대신 커밋 해시키를 사용하여 체크아웃할 수도 있습니다.
+
+
+:: …or create a new repository on the command line
+::echo "# dh2110-lg" >> README.md
+::git init
+::git add README.md
+::git commit -m "first commit"
+::git branch -M main
+::git remote add origin https://github.com/doug2026/dh2110-lg.git
+::git push -u origin main
+:: …or push an existing repository from the command line
+::git remote add origin https://github.com/doug2026/dh2110-lg.git
+::git branch -M main
+::git push -u origin main
+
+@echo off
+goto END
 
 
 echo.LCD Firmware update tool 2024/02/20
