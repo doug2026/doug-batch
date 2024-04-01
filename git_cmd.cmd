@@ -1,6 +1,16 @@
 :: git clone이 URL로 클론하면
 :: Remote/main Repository를 Local Repository에 clone 한다.
 $ git clone https://github.com/doug2026/doug-batch.git
+:: git clone을 실행할 때 다음과 같은 동작이 발생합니다.
+:: 1. repo라는 새 폴더가 만들어짐
+:: 2. Git 리포지토리로 초기화됨
+:: 3. 복제한 URL을 가리키는 원격 이름 origin이 만들어짐
+:: 4. 리포지토리의 모든 파일 및 커밋이 다운로드됨
+:: 5. 기본 분기가 체크 아웃됨
+:: 원격 리포지토리의 모든 분기 foo에 대해 해당 원격 추적 분기 refs/remotes/origin/foo가
+:: 로컬 리포지토리에 만들어집니다.
+:: 일반적으로 이러한 원격 추적 분기 이름을 origin/foo로 축약할 수 있습니다.
+
 
 :: git branch -r   # remote -v를 통해, 어디에 연결 되어있는지 볼 수 있고,
 $ git remote -v
@@ -91,6 +101,16 @@ $ git branch -r
 $ git pull
 
 :: Pull Request
+$ git push origin atoffice
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 22 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 271 bytes | 271.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/doug2026/doug-batch.git
+   ffd251b..f058e21  atoffice -> atoffice
 
 
 :: HEAD -> main : 이 커밋이 지역(Local) 저장소의 최종 커밋
