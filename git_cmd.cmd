@@ -285,6 +285,10 @@ $ git checkout -
 :: 어떤 Branch의 최상단으로 다시 돌아가기 위해서
 $ git checkout "branch_name"
 
-
+:: HEAD 사용하여 reset하기
+:: git reset --hard HEAD  : (원하는 단계)
+:: 해시를 찾아서 reset하는 방법이 아닌, HEAD를 이용해서 이전 commit 상태를 찾고,
+::  해당 상태로 reset하는 방법입니다.
+$ git reset --hard HEAD
 
 
