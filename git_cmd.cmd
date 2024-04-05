@@ -316,3 +316,17 @@ $ git checkout main
 :: git fetch 적용 전 살펴보기
 :: 원격 저장소에 새로운 commit이 생성 되었다고 가정하겠습니다.
 :: 이때, git checkout origin/main으로 적용 전 내용을 살펴봅니다.
+
+:: git fetch를 통해 원격 저장소의 commit 변경사항을 로컬 저장소에 가져와줍니다.
+$ git fetch
+:: git checkout으로 변경사항 조회하기
+$ git checkout orign/main
+:: 최신 커밋 내용을 받아오고, 코드도 변경되었습니다.
+:: 새로운 commit으로 변경사항을 미리 적용해보고, merge 혹은 pull을 적용할 수 있습니다.
+
+:: main branch로 돌아오기
+$ git switch main
+
+:: merge or pull하기
+$ git pull
+
