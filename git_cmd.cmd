@@ -308,3 +308,11 @@ $ git checkout origin/main
 :: git checkout main으로 다시 main 브랜치로 돌아와 줍니다.
 $ git checkout main
 
+
+:: fetch vs pull
+:: fetch - 원격 저장소의 최신 커밋을 로컬 저장소로 가져옵니다.
+:: pull - 원격 저장소의 최신 커밋을 로컬 저장소로 가져와 merge 또는 rebase합니다.
+::         pull은 fetch를 포함하는 명령어입니다.
+:: git fetch 적용 전 살펴보기
+:: 원격 저장소에 새로운 commit이 생성 되었다고 가정하겠습니다.
+:: 이때, git checkout origin/main으로 적용 전 내용을 살펴봅니다.
