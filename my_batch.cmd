@@ -4,22 +4,22 @@
 
 goto todayStudy
 
-:: ¹®ÀÚ¿­À» Ãâ·Â(¹®ÀÚ¿­Àº Space·Î ±¸ºĞµÊ)
+:: ë¬¸ìì—´ì„ ì¶œë ¥(ë¬¸ìì—´ì€ Spaceë¡œ êµ¬ë¶„ë¨)
 for %%c in (miku daisuki) do (
 	echo %%c
 )
 
-:: ÇöÀç DirectoryÀÇ ÆÄÀÏ ¸ñ·Ï Ãâ·Â
+:: í˜„ì¬ Directoryì˜ íŒŒì¼ ëª©ë¡ ì¶œë ¥
 for %%d in (*) do (
 	echo %%d
 )
 
-:: ÇöÀç DirectoryÀÇ ÆÄÀÏ ¸ñ·Ï°ú String Ãâ·Â
+:: í˜„ì¬ Directoryì˜ íŒŒì¼ ëª©ë¡ê³¼ String ì¶œë ¥
 for %%d in (* miku daisuki) do (
 	echo %%d
 )
 
-:: Æ¯¼öÇÑ ¿É¼Ç(Æ¯¼ö ¹®ÀÚ, Space·Î ±¸ºĞµÊ)
+:: íŠ¹ìˆ˜í•œ ì˜µì…˜(íŠ¹ìˆ˜ ë¬¸ì, Spaceë¡œ êµ¬ë¶„ë¨)
 for %%d in (1;2 3,4) do (
 	echo %%d
 )
@@ -33,15 +33,15 @@ pause
 :: /d (/D) : Directory for
 for /d %%a in (*) do echo %%a
 
-:: Áõ°¨ For - ½ÃÀÛ°ú ³¡(Start,Delta,End)
+:: ì¦ê° For - ì‹œì‘ê³¼ ë(Start,Delta,End)
 for /L %%a in (1,3,100) do echo %%a
 
 :: /r (/R) : Recursive for
 for /r d:\ %%a in (*.tx0, *.mp4) do echo %%a
 
 :: /f (/F) : File for
-:: tokens : ±¸ºĞÀÚ·Î ³ªÀ§¾îÁø °ÍÀ» °¢°¢ ÅäÅ«ÀÌ¶ó ÇÑ´Ù.
-:: delims(delimeters) : ¹®ÀÚ¿­À» ³ª´©´Â ±âÈ£ ¹®ÀÚ, »ı°½½Ã °ø¹é(½ºÆäÀÌ½º, ÅÇ)À¸·Î ³ª´¶´Ù.
+:: tokens : êµ¬ë¶„ìë¡œ ë‚˜ìœ„ì–´ì§„ ê²ƒì„ ê°ê° í† í°ì´ë¼ í•œë‹¤.
+:: delims(delimeters) : ë¬¸ìì—´ì„ ë‚˜ëˆ„ëŠ” ê¸°í˜¸ ë¬¸ì, ìƒê°¹ì‹œ ê³µë°±(ìŠ¤í˜ì´ìŠ¤, íƒ­)ìœ¼ë¡œ ë‚˜ë‰œë‹¤.
 :: skip :
 :: eol :
 :: usebackq :
@@ -58,9 +58,9 @@ for /f "delims=: tokens=1,2,3" %%a in ("hello:world!:this is doug.") do echo %%a
 
 type c:\Windows\System32\drivers\etc\hosts
 pause
-:: 15 linesÀ» skipÇÏ°í #·Î ±¸ºĞµÈ Ã¹¹øÂ° StringÀ» Ç¥½ÃÇÏ¶ó.
+:: 15 linesì„ skipí•˜ê³  #ë¡œ êµ¬ë¶„ëœ ì²«ë²ˆì§¸ Stringì„ í‘œì‹œí•˜ë¼.
 for /f "skip=15 delims='#' tokens=1" %%a in (c:\Windows\System32\drivers\etc\hosts) do echo %%a
-:: 15 linesÀ» skipÇÏ°í ±¸ºĞÀÚ°¡ ¾øÀ¸¹Ç·Î °¢ ÇàÀ» ÅëÃ¤·Î ÅäÅ«ÀÌ µÇ¾î¼­ %%a¿¡ ´ëÀÀµÈ´Ù.
+:: 15 linesì„ skipí•˜ê³  êµ¬ë¶„ìê°€ ì—†ìœ¼ë¯€ë¡œ ê° í–‰ì„ í†µì±„ë¡œ í† í°ì´ ë˜ì–´ì„œ %%aì— ëŒ€ì‘ëœë‹¤.
 for /f "skip=15 delims= tokens=1" %%a in (c:\Windows\System32\drivers\etc\hosts) do echo %%a
 
 @REM Commenting multiple lines in DOS batch file
@@ -175,14 +175,14 @@ echo %date% %time%
 goto END
 
 
-:: title Ã¢ Á¦¸ñ
+:: title ì°½ ì œëª©
 title batch programming ...
-:: color ¹è°æ»ö, ¹®ÀÚ»ö
+:: color ë°°ê²½ìƒ‰, ë¬¸ììƒ‰
 :: color 61
 set STR=1
 :: set /p STR=
 echo Input String : %STR%
-:: ¹èÄ¡ ÆÄÀÏÀÇ Á¤º¸ - µå¶óÀÌºê, °æ·Î, ÆÄÀÏ, È®ÀåÀÚ, ...
+:: ë°°ì¹˜ íŒŒì¼ì˜ ì •ë³´ - ë“œë¼ì´ë¸Œ, ê²½ë¡œ, íŒŒì¼, í™•ì¥ì, ...
 echo %0
 echo %~d0
 echo %~p0
@@ -205,12 +205,12 @@ title studying git ...
 :: git clone
 :: git remote -v
 :: git branch
-:: git checkout -b <branch_name>  	:: branch_name branch »ı¼º ¹× ÀÌµ¿
-:: git checkout <branch_name> 		:: branch_name branch·Î ÀÌµ¿
-:: git checkout <commit_hask_key> 	:: ºê·£Ä¡ ÀÌ¸§ ´ë½Å Ä¿¹Ô ÇØ½ÃÅ°¸¦ »ç¿ëÇÏ¿© Ã¼Å©¾Æ¿ôÇÒ ¼öµµ ÀÖ½À´Ï´Ù.
+:: git checkout -b <branch_name>  	:: branch_name branch ìƒì„± ë° ì´ë™
+:: git checkout <branch_name> 		:: branch_name branchë¡œ ì´ë™
+:: git checkout <commit_hask_key> 	:: ë¸Œëœì¹˜ ì´ë¦„ ëŒ€ì‹  ì»¤ë°‹ í•´ì‹œí‚¤ë¥¼ ì‚¬ìš©í•˜ì—¬ ì²´í¬ì•„ì›ƒí•  ìˆ˜ë„ ìˆìŠµë‹ˆë‹¤.
 
 
-:: ¡¦or create a new repository on the command line
+:: â€¦or create a new repository on the command line
 ::echo "# dh2110-lg" >> README.md
 ::git init
 ::git add README.md
@@ -218,7 +218,7 @@ title studying git ...
 ::git branch -M main
 ::git remote add origin https://github.com/doug2026/dh2110-lg.git
 ::git push -u origin main
-:: ¡¦or push an existing repository from the command line
+:: â€¦or push an existing repository from the command line
 ::git remote add origin https://github.com/doug2026/dh2110-lg.git
 ::git branch -M main
 ::git push -u origin main
