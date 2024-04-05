@@ -1,0 +1,84 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 8.2.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# Viminfo version
+|1,4
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 명령 행 히스토리 (새것부터 오래된 것 순):
+:wq
+|2,0,1667039069,,"wq"
+:q!
+|2,0,1633536475,,"q!"
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 행 히스토리 (새것부터 오래된 것 순):
+
+# 디버그 행 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+""1	CHAR	0
+	
+	cmderr=cd /d "%CMDER_ROOT%"
+|3,1,1,0,2,0,1633536468,"","cmderr=cd /d \"%CMDER_ROOT%\""
+"2	CHAR	0
+	
+	vi=vim $*
+|3,0,2,0,2,0,1633536468,"","vi=vim $*"
+"3	CHAR	0
+	
+	unalias=alias /d $1
+|3,0,3,0,2,0,1633536468,"","unalias=alias /d $1"
+"4	CHAR	0
+	
+	clear=cls
+|3,0,4,0,2,0,1633536468,"","clear=cls"
+"5	CHAR	0
+	ls=ls --show-control-chars -F --color $*
+	pwd=cd
+|3,0,5,0,2,0,1633536468,"ls=ls --show-control-chars -F --color $*","pwd=cd"
+
+# 파일 마크:
+'0  3  14  ~/.ssh/config
+|4,48,3,14,1667039069,"~/.ssh/config"
+'1  9  0  /d/cmder/config/user_aliases.cmd
+|4,49,9,0,1633536475,"/d/cmder/config/user_aliases.cmd"
+
+# 점프목록 (새것이 먼저):
+-'  3  14  ~/.ssh/config
+|4,39,3,14,1667039069,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1667038961,"~/.ssh/config"
+-'  9  0  /d/cmder/config/user_aliases.cmd
+|4,39,9,0,1633536475,"/d/cmder/config/user_aliases.cmd"
+-'  9  0  /d/cmder/config/user_aliases.cmd
+|4,39,9,0,1633536475,"/d/cmder/config/user_aliases.cmd"
+-'  1  0  /d/cmder/config/user_aliases.cmd
+|4,39,1,0,1633536464,"/d/cmder/config/user_aliases.cmd"
+-'  1  0  /d/cmder/config/user_aliases.cmd
+|4,39,1,0,1633536464,"/d/cmder/config/user_aliases.cmd"
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/.ssh/config
+	*	1667039014	0
+	"	3	14
+	^	3	15
+	.	3	14
+	+	3	14
+
+> /d/cmder/config/user_aliases.cmd
+	*	1633536472	0
+	"	9	0
+	^	9	0
+	.	10	0
+	+	9	0
+	+	10	0

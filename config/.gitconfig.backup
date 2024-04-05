@@ -1,0 +1,36 @@
+[user]
+	name = Doug Kim
+	email = doug.kim@lge.com
+[core]
+	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
+	autosquash = false
+	updateRefs = false
+[diff]
+	guitool = bc
+[difftool "winmerge"]
+	path = C:/Program Files/WinMerge/winmergeu.exe
+	cmd = \"C:/Program Files/WinMerge/winmergeu.exe\" -e -u \"$LOCAL\" \"$REMOTE\"
+[merge]
+	guitool = bc
+[mergetool "winmerge"]
+	path = C:/Program Files/WinMerge/winmergeu.exe
+	cmd = \"C:/Program Files/WinMerge/winmergeu.exe\" -e -u  -wl -wr -fm -dl \"Mine: $LOCAL\" -dm \"Merged: $BASE\" -dr \"Theirs: $REMOTE\" \"$LOCAL\" \"$BASE\" \"$REMOTE\" -o \"$MERGED\"
+[difftool "sourcetree"]
+	cmd = 'C:/Program Files/Beyond Compare 4/BComp.exe' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = 'C:/Program Files/Beyond Compare 4/BComp.exe' \"$LOCAL\" \"$REMOTE\" \"$BASE\" -o \"$MERGED\"
+	trustExitCode = true
+[credential "helperselector"]
+	selected = cache--daemon
+[difftool "bc"]
+	path = C:/Program Files/Beyond Compare 4/bcomp.exe
+	cmd = \"C:/Program Files/Beyond Compare 4/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
+[mergetool "bc"]
+	path = C:/Program Files/Beyond Compare 4/bcomp.exe
+	cmd = \"C:/Program Files/Beyond Compare 4/bcomp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
