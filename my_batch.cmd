@@ -130,11 +130,76 @@ pause
 ::@echo off
 
 :todayStudy
-
-title batch programming ...
-@echo on
+rem @echo on
 pushd %~dp0
 
+echo if exist file_name (command)
+echo if no exist file_name (command)
+echo if string1 == string2 (cmommand)
+echo if not string1 == string2 (command)
+echo if ERRORLEVEL value (command)
+echo if NOT ERRORLEVEL value (command)
+
+if /i "%1" == "-h" goto HELP
+if /i "%1" == "--help" goto HELP
+if "%1" == "/?" goto HELP
+
+if exist FN.EXT (
+  del FN.EXT 
+) else (
+  del NFN.EXT
+)
+
+if not exist NFN.EXT (echo xxx >> NFN.EXT)
+if exist NFN.EXT (ren NFN.EXT FN.EXT)
+
+if exist FN.EXT (
+  echo FN.EXT exist
+  del FN.EXT
+) else (
+  echo No file exist.
+)
+
+for /L %%i in (1, 1, 7) do (
+  echo %%i
+)
+
+popd
+rem @echo off
+goto END
+
+:HELP
+echo -h or /? or --help
+echo What date and time is it ?
+echo %date% %time%
+goto END
+
+
+:: title 창 제목
+title batch programming ...
+:: color 배경색, 문자색
+:: color 61
+set STR=1
+:: set /p STR=
+echo Input String : %STR%
+:: 배치 파일의 정보 - 드라이브, 경로, 파일, 확장자, ...
+echo %0
+echo %~d0
+echo %~p0
+echo %~n0
+echo %~x0
+echo %~dp0
+echo %~dp0\%0
+
+
+:: CD 
+CD ..
+:: CD
+:: popd
+:: pause
+:: pause >> nul
+
+goto END
 
 title studying git ...
 :: git clone
@@ -157,9 +222,6 @@ title studying git ...
 ::git remote add origin https://github.com/doug2026/dh2110-lg.git
 ::git branch -M main
 ::git push -u origin main
-
-@echo off
-goto END
 
 
 echo.LCD Firmware update tool 2024/02/20
