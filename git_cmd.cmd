@@ -321,12 +321,38 @@ $ git checkout main
 $ git fetch
 :: git checkout으로 변경사항 조회하기
 $ git checkout orign/main
-:: 최신 커밋 내용을 받아오고, 코드도 변경되었습니다.
-:: 새로운 commit으로 변경사항을 미리 적용해보고, merge 혹은 pull을 적용할 수 있습니다.
+:: -> 최신 커밋 내용을 받아오고, 코드도 변경되었습니다.
+:: -> 새로운 commit으로 변경사항을 미리 적용해보고, merge 혹은 pull을 적용할 수 있습니다.
 
 :: main branch로 돌아오기
 $ git switch main
+:: -> merge또는 pull을 하기 전에 다시 main branch로 돌아가 줍니다.
 
 :: merge or pull하기
 $ git pull
+:: -> git pull로 commit 변경사항을 적용시켜 줍니다.
+
+:: athome branch 생성하여 origin/athome 업데이트
+:: 원격의 새 브랜치 확인
+:: 변경사항 확인하고 최신화해주기
+$ git fetch
+:: -> git fetch를 통해 새로운 변경사항을 로컬 저장소에 받아옵니다.
+
+:: 새로운 branch가 있은지 확인하기
+$ git branch -a
+:: -> 원격 저장소에서 새로운 브랜치가 만들어 졌는지 확인합니다.
+
+:: 코드 변경사항 확인하기
+:: git checkout origin/"브랜치 이름"
+:: 다음 명령어로 새로운 브랜치에서의 코드 변경사항을 확인할 수 있습니다.
+$ git checkout orign/athome2
+
+:: main 브랜치로 다시 변경해주기
+$ git switch main
+:: -> 메인 브랜치로 다시 변경해 주었습니다.
+
+:: 새로운 브랜치 로컬 저장소에 추가해주기
+$ git switch -t origin/"브랜치 이름"
+:: -> git switch를 통해 브랜치를 변경해주고 -t명령어를 통해서 commit을 서로 주고받을 수 있게 해줍니다.
+
 
