@@ -1,11 +1,6 @@
+@REM Studying batch programming
+
 @echo off
-title Studying batch programming
-
-:: help
-if /i "%1" == "-h" goto HELP
-if /i "%1" == "--help" goto HELP
-if "%1" == "/?" goto HELP
-
 
 goto todayStudy
 
@@ -144,6 +139,10 @@ echo if string1 == string2 (cmommand)
 echo if not string1 == string2 (command)
 echo if ERRORLEVEL value (command)
 echo if NOT ERRORLEVEL value (command)
+
+if /i "%1" == "-h" goto HELP
+if /i "%1" == "--help" goto HELP
+if "%1" == "/?" goto HELP
 
 if exist FN.EXT (
   del FN.EXT 
