@@ -132,11 +132,64 @@ cd
 pause
 @echo off
 
-::@echo off
 
 :todayStudy
 rem @echo on
 pushd %~dp0
+
+::Memory Detection Script
+
+:CHECK_MEMORY_SIZE
+
+@SET GETMEMSIZE_TOTAL=0
+@SET GETMEMCOUNT=0
+FOR /F "skip=1" %%a IN ('WMIC MEMORYCHIP GET Capacity ^| findstr "."') DO (
+  CALL :SETTOTALMEMSIZE "%%a"
+)
+
+
+::IF NOT *%MEMTOTAL%==*%GETMEMSIZE_TOTAL%GB (
+::  SET RESULT_SET=MEM : %MEMTOTAL%
+::  SET RESULT_GET=MEM : %GETMEMSIZE_TOTAL%GB
+::  GOTO FAIL
+::)
+
+::IF *%MEMCOUNT%==*ON-BOARD GOTO CHECK_VGA
+
+::IF NOT *%MEMCOUNT%==*%GETMEMCOUNT% (
+::  SET RESULT_SET=MEMCOUNT : %MEMCOUNT%
+::  SET RESULT_GET=MEMCOUNT : %GETMEMCOUNT%
+::  GOTO FAIL
+::)
+
+:SETTOTALMEMSIZE <first>
+@SET /A GETMEMSIZE_TOTAL=%~1/1024
+::SET /A GETMEMSIZE_TOTAL=GETMEMSIZE_TOTAL+(%~1/(1024*1024*1024))
+
+popd
+rem @echo off
+
+goto END
+
+
+set my_variable=Hello world!
+echo %my_variable%
+
+set /a sum=1+1
+echo %sum%
+
+set /a mul=7*9
+echo %mul%
+
+set /a div=9/3
+echo %div%
+
+set /a assign=10
+echo %assign%
+
+set /a mod=10/3
+echo %mod%
+
 
 echo if exist file_name (command)
 echo if no exist file_name (command)
@@ -165,9 +218,6 @@ for /L %%i in (1, 1, 7) do (
   echo %%i
 )
 
-popd
-rem @echo off
-goto END
 
 :HELP
 echo -h or /? or --help
