@@ -9,7 +9,8 @@ if "%1" == "/?" goto HELP
 
 goto todayStudy
 
-:: 문자열을 출력(문자열은 Space로 구분됨)
+
+:: 문자열을 출력(문자열은 Space로 구분됨)m
 for %%c in (miku daisuki) do (
 	echo %%c
 )
@@ -138,6 +139,21 @@ pause
 rem @echo on
 pushd %~dp0
 
+title Memory Detection Script
+:CHECK_MEMORY_SIZE
+
+SET GETMEMSIZE_TOTAL=0
+SET GETMEMCOUNT=0
+FOR /F "skip=1" %%a IN ('WMIC MEMORYCHIP GET Capacity ^| findstr "."') DO (
+  echo %%a
+)
+::  CALL :SETTOTALMEMSIZE "%%a"
+
+popd
+rem @echo off
+goto END
+
+
 echo if exist file_name (command)
 echo if no exist file_name (command)
 echo if string1 == string2 (cmommand)
@@ -165,9 +181,6 @@ for /L %%i in (1, 1, 7) do (
   echo %%i
 )
 
-popd
-rem @echo off
-goto END
 
 :HELP
 echo -h or /? or --help
