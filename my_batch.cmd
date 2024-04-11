@@ -133,12 +133,41 @@ pause
 @echo off
 
 
-:todayStudy
+:: :todayStudy
 rem @echo on
 pushd %~dp0
 
-::Memory Detection Script
+::#define INT_MIN  (-2147483647-1)
+::#define LONG_MIN (-2147483647L-1L)
+@echo off
+set VALUE1=(-2147483647-1)
+set VALUE2=312704
+set /a RESULT=%VALUE1%+%VALUE2%
+echo Result of %VALUE1% + %VALUE2% is %RESULT%
 
+popd
+rem @echo off
+
+goto END
+
+
+@echo off
+set VALUE1=-2147483648
+set VALUE2=312704
+set /a RESULT=%VALUE1%+%VALUE2%
+echo Result of %VALUE1% + %VALUE2% is %RESULT%
+
+popd
+rem @echo off
+
+goto END
+
+
+:todayStudy
+
+pushd %~dp0
+
+::Memory Detection Script
 :CHECK_MEMORY_SIZE
 
 @SET GETMEMSIZE_TOTAL=0
@@ -147,6 +176,7 @@ FOR /F "skip=1" %%a IN ('WMIC MEMORYCHIP GET Capacity ^| findstr "."') DO (
   CALL :SETTOTALMEMSIZE "%%a"
 )
 
+echo %GETMEMSIZE_TOTAL%GB
 
 ::IF NOT *%MEMTOTAL%==*%GETMEMSIZE_TOTAL%GB (
 ::  SET RESULT_SET=MEM : %MEMTOTAL%
@@ -162,12 +192,20 @@ FOR /F "skip=1" %%a IN ('WMIC MEMORYCHIP GET Capacity ^| findstr "."') DO (
 ::  GOTO FAIL
 ::)
 
-:SETTOTALMEMSIZE <first>
-@SET /A GETMEMSIZE_TOTAL=%~1/1024
-::SET /A GETMEMSIZE_TOTAL=GETMEMSIZE_TOTAL+(%~1/(1024*1024*1024))
-
 popd
-rem @echo off
+goto END
+
+:SETTOTALMEMSIZE <first>
+::@SET /A GETMEMSIZE_TOTAL=%~1/1024
+::SET /A GETMEMSIZE_TOTAL=GETMEMSIZE_TOTAL+(%~1/(1024*1024*1024))
+SET SUBMEM=%~1
+:: truncation of number
+::echo %SUBMEM:~0,-3%
+SET /A SUBMEM=%SUBMEM:~0,-3%/1024/1024
+::echo %SUBMEM:~0,-6%
+::SET /A SUBMEM=%SUBMEM:~0,-3%/1024
+SET /A GETMEMSIZE_TOTAL+=%SUBMEM%
+SET /A GETMEMCOUNT+=1
 
 goto END
 
