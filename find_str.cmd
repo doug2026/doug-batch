@@ -17,7 +17,18 @@ if not %errorlevel%==0 (
 :findStr1
 
 :: [파일 내용 찾기.원하는 문자열 찾기]
-:: findstr /s "원하는 문자열" *.txt
+:: findstr /s "원하는 문자열" *.txt (/s : 하위 경로)
+echo "abcdef" | findstr /i /c:"fg"
+echo %errorlevel%
+:: findstr /n "원하는문자열입력" *mobile.log* -> /n을 붙이면 라인수가 같이 표기됨
+$ findstr.exe /s /n /c:"git fetch" *.*
+echo %errorlevel%
+
+:: [특정단어 포함 + 특정단어 미포함 찾기. 원하는문자열찾기]
+:: type *.java | findstr "Mid" | findstr /v "setMid"
+type *.cmd | findstr "fetch" | findstr /v "first"
+findstr /s /n "fetch" *.cmd | findstr /v "first"
+
 
 popd
 
