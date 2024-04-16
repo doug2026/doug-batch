@@ -5,9 +5,13 @@ setlocal
 pushd %~dp0
 title https://stackoverflow.com/questions/28514826/batch-truncate-string-before-saving-to-variable
 
-::for /f "skip=1" %%a in ('wmic os get freephysicalmemory') do (
-for /f %%a in ('wmic os get freephysicalmemory ^| findstr [0-9]') do (
-    echo %%a
+:: only lines with number only
+:: for /f %%a in ('wmic os get freephysicalmemory ^| findstr [0-9]') do (
+:: skip 1st line
+:: for /f "skip=1" %%a in ('wmic os get freephysicalmemory') do (
+:: all lines
+for /f %%a in ('wmic os get freephysicalmemory') do (
+    if %%a "" (echo %%a) else (echo xxx)
 )
 
 for /f "skip=1" %%a in ('wmic os get freephysicalmemory ^| findstr "."') do (

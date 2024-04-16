@@ -2,7 +2,7 @@
 pushd %~dp0
 
 :: Regular Expression
-:: %var:x,y% - x = Start, y = 길이
+:: %var:x,y% - x = Start position, y = 길이
 echo %DATE%
 echo %TIME%
 set datetimef=%date:~-4%_%date:~4,2%_%date:~7,2%_%date:~0,3%_%time:~0,2%_%time:~3,2%_%time:~6,2%
@@ -17,26 +17,26 @@ echo %datetimef%
 :: 3. other scripting languages
 
 :: Get total physical memory, measured in B
-for /f "skip=1" %%a in ('wmic computersystem get totalphysicalmemory') do (
+for /f "skip=1" %%a in ('wmic computersystem get totalphysicalmemory ^| findstr "."') do (
+rem for /f "skip=1" %%a in ('wmic computersystem get totalphysicalmemory ^| findstr [0-9]') do (
     @Call :ConvtDisp "%%a"
 )
-goto END
 
-:ConvtDisp <first>
-@Set sizeout=%~1
-@Echo %sizeout%
-@Set sizeout=%sizeout:bytes=%
-@Set sizeout=%sizeout: =%
-@set /A inbytes=%sizeout%
-@set /A inkb=(%sizeout%) / 1024
-@set /A inmb=(%sizeout%) / (1024*1024)
-@set /A ingb=(%sizeout%) / (1024*1024*1024)
-
-@Echo %sizeout%
 @Echo %inbytes%-B
 @Echo %inkb%-KB
 @Echo %inmb%-MB
 @Echo %ingb%-GB
+
+goto END
+
+:ConvtDisp <first>
+@Set sizeout=%~1
+rem @Set sizeout=%sizeout:bytes=%
+rem @Set sizeout=%sizeout: =%
+@set inbytes=%sizeout%
+@set /A inkb=(%sizeout:~0,-3%)
+@set /A inmb=inkb/1024
+@set /A ingb=inkb/(1024*1024)
 goto :EOF
 
 popd
