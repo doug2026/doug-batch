@@ -1,0 +1,1 @@
+wBattery.exe -wmi /d
