@@ -1,0 +1,1239 @@
+BIOS
+
+Manufacturer             Name SerialNumber         Version
+------------             ---- ------------         -------
+American Megatrends Inc. 5021 System Serial Number ALASKA - 1072009
+
+OS
+
+Version    BuildNumber RegisteredUser      SerialNumber
+-------    ----------- --------------      ------------
+10.0.26120 26120       doug.kim@live.co.kr 00330-80000-00000-AA508
+
+UPDATES
+
+Description HotFixID  InstalledOn
+----------- --------  -----------
+Update      KB5049622 2025-01-18 오전 12:00:00
+Update      KB5037898 2024-10-05 오전 12:00:00
+Update      KB5050103 2025-01-24 오전 12:00:00
+Update      KB5050102 2025-01-24 오전 12:00:00
+
+MISSING UPDATES
+APPLICATIONS
+
+Name    : Microsoft Bing Service
+Vendor  : Microsoft Corporation
+Version : 2.0.0.11
+Caption : Microsoft Bing Service
+
+Name    : Office 16 Click-to-Run Extensibility Component
+Vendor  : Microsoft Corporation
+Version : 16.0.14332.20839
+Caption : Office 16 Click-to-Run Extensibility Component
+
+Name    : Office 16 Click-to-Run Localization Component
+Vendor  : Microsoft Corporation
+Version : 16.0.14332.20791
+Caption : Office 16 Click-to-Run Localization Component
+
+Name    : Office 16 Click-to-Run Licensing Component
+Vendor  : Microsoft Corporation
+Version : 16.0.14332.20839
+Caption : Office 16 Click-to-Run Licensing Component
+
+Name    : ASUS Aura SDK
+Vendor  : ASUSTek COMPUTER INC.
+Version : 3.04.46
+Caption : ASUS Aura SDK
+
+Name    : AMD Ryzen Balanced Driver
+Vendor  : Advanced Micro Devices, Inc.
+Version : 8.0.0.13
+Caption : AMD Ryzen Balanced Driver
+
+Name    : Microsoft Visual Studio Setup WMI Provider
+Vendor  : Microsoft Corporation
+Version : 3.12.2140.44225
+Caption : Microsoft Visual Studio Setup WMI Provider
+
+Name    : Windows Mobile Extension SDK Contracts
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows Mobile Extension SDK Contracts
+
+Name    : Universal CRT Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Universal CRT Extension SDK
+
+Name    : Application Verifier x64 External Package (OnecoreUAP)
+Vendor  : Microsoft
+Version : 10.1.22621.3233
+Caption : Application Verifier x64 External Package (OnecoreUAP)
+
+Name    : Windows SDK for Windows Store Apps Metadata
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK for Windows Store Apps Metadata
+
+Name    : Windows Desktop Extension SDK Contracts
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows Desktop Extension SDK Contracts
+
+Name    : Node.js
+Vendor  : Node.js Foundation
+Version : 18.15.0
+Caption : Node.js
+
+Name    : Windows App Certification Kit Native Components
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows App Certification Kit Native Components
+
+Name    : MSI Development Tools
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : MSI Development Tools
+
+Name    : Windows SDK for Windows Store Managed Apps Libs
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK for Windows Store Managed Apps Libs
+
+Name    : vsclient
+Vendor  : SOMANSA CO,LTD
+Version : 2.0.117.27406
+Caption : vsclient
+
+Name    : PHISON HAL
+Vendor  : PHISON Electronics Corp.
+Version : 1.0.9.0
+Caption : PHISON HAL
+
+Name    : Python 3.11.4 Core Interpreter (64-bit)
+Vendor  : Python Software Foundation
+Version : 3.11.4150.0
+Caption : Python 3.11.4 Core Interpreter (64-bit)
+
+Name    : WinRT Intellisense UAP - en-us
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : WinRT Intellisense UAP - en-us
+
+Name    : Python 3.11.4 Add to Path (64-bit)
+Vendor  : Python Software Foundation
+Version : 3.11.4150.0
+Caption : Python 3.11.4 Add to Path (64-bit)
+
+Name    : Python 3.11.4 Tcl/Tk Support (64-bit)
+Vendor  : Python Software Foundation
+Version : 3.11.4150.0
+Caption : Python 3.11.4 Tcl/Tk Support (64-bit)
+
+Name    : Microsoft Visual C++ 2019 X86 Debug Runtime - 14.29.30157
+Vendor  : Microsoft Corporation
+Version : 14.29.30157
+Caption : Microsoft Visual C++ 2019 X86 Debug Runtime - 14.29.30157
+
+Name    : Windows SDK Desktop Tools x64
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Desktop Tools x64
+
+Name    : Python Launcher
+Vendor  : Python Software Foundation
+Version : 3.11.4150.0
+Caption : Python Launcher
+
+Name    : Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Vendor  : Microsoft Corporation
+Version : 10.0.40219
+Caption : Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+
+Name    : Microsoft Visual C++ 2005 Redistributable (x64)
+Vendor  : Microsoft Corporation
+Version : 8.0.61000
+Caption : Microsoft Visual C++ 2005 Redistributable (x64)
+
+Name    : Windows App Certification Kit x64
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows App Certification Kit x64
+
+Name    : Microsoft .NET Runtime - 6.0.26 (x64)
+Vendor  : Microsoft Corporation
+Version : 48.104.7000
+Caption : Microsoft .NET Runtime - 6.0.26 (x64)
+
+Name    : Microsoft .NET Core Runtime - 3.1.32 (x86)
+Vendor  : Microsoft Corporation
+Version : 24.192.31915
+Caption : Microsoft .NET Core Runtime - 3.1.32 (x86)
+
+Name    : Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664
+Vendor  : Microsoft Corporation
+Version : 12.0.40664
+Caption : Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664
+
+Name    : Microsoft .NET Framework 4.7.2 SDK
+Vendor  : Microsoft Corporation
+Version : 4.7.03081
+Caption : Microsoft .NET Framework 4.7.2 SDK
+
+Name    : vs_communitymsi
+Vendor  : Microsoft Corporation
+Version : 16.11.34930
+Caption : vs_communitymsi
+
+Name    : Python 3.11.4 Test Suite (64-bit)
+Vendor  : Python Software Foundation
+Version : 3.11.4150.0
+Caption : Python 3.11.4 Test Suite (64-bit)
+
+Name    : Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Vendor  : Microsoft Corporation
+Version : 10.0.40219
+Caption : Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+
+Name    : Windows SDK for Windows Store Apps Libs
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK for Windows Store Apps Libs
+
+Name    : Windows SDK for Windows Store Apps Tools
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK for Windows Store Apps Tools
+
+Name    : vs_vswebprotocolselectormsires
+Vendor  : Microsoft Corporation
+Version : 17.12.35410
+Caption : vs_vswebprotocolselectormsires
+
+Name    : Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729
+Vendor  : Microsoft Corporation
+Version : 9.0.30729
+Caption : Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729
+
+Name    : Microsoft .NET Runtime - 6.0.16 (x64)
+Vendor  : Microsoft Corporation
+Version : 48.67.58427
+Caption : Microsoft .NET Runtime - 6.0.16 (x64)
+
+Name    : WinRT Intellisense Desktop - Other Languages
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : WinRT Intellisense Desktop - Other Languages
+
+Name    : Universal CRT Tools x64
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Universal CRT Tools x64
+
+Name    : Windows SDK Desktop Libs arm
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Desktop Libs arm
+
+Name    : Microsoft Windows Desktop Runtime - 7.0.15 (x86)
+Vendor  : Microsoft Corporation
+Version : 56.60.5778
+Caption : Microsoft Windows Desktop Runtime - 7.0.15 (x86)
+
+Name    : WinRT Intellisense Desktop - en-us
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : WinRT Intellisense Desktop - en-us
+
+Name    : VS Script Debugging Common
+Vendor  : Microsoft Corporation
+Version : 17.0.157.0
+Caption : VS Script Debugging Common
+
+Name    : Windows SDK Desktop Libs x86
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Desktop Libs x86
+
+Name    : Microsoft Visual C++ 2019 X64 Debug Runtime - 14.29.30157
+Vendor  : Microsoft Corporation
+Version : 14.29.30157
+Caption : Microsoft Visual C++ 2019 X64 Debug Runtime - 14.29.30157
+
+Name    : Windows Mobile Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows Mobile Extension SDK
+
+Name    : Windows SDK Redistributables
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Redistributables
+
+Name    : Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.60610
+Vendor  : Microsoft Corporation
+Version : 11.0.60610
+Caption : Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.60610
+
+Name    : Windows SDK for Windows Store Apps Contracts
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK for Windows Store Apps Contracts
+
+Name    : vs_FileTracker_Singleton
+Vendor  : Microsoft Corporation
+Version : 17.12.35410
+Caption : vs_FileTracker_Singleton
+
+Name    : Microsoft .NET Host - 8.0.11 (x86)
+Vendor  : Microsoft Corporation
+Version : 64.44.23191
+Caption : Microsoft .NET Host - 8.0.11 (x86)
+
+Name    : Microsoft .NET Framework 4.7.2 Targeting Pack (ENU)
+Vendor  : Microsoft Corporation
+Version : 4.7.03062
+Caption : Microsoft .NET Framework 4.7.2 Targeting Pack (ENU)
+
+Name    : Microsoft GameInput
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3036
+Caption : Microsoft GameInput
+
+Name    : Windows Desktop Extension SDK Contracts
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows Desktop Extension SDK Contracts
+
+Name    : Windows SDK Desktop Libs arm64
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Desktop Libs arm64
+
+Name    : Windows SDK for Windows Store Apps DirectX x86 Remote
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK for Windows Store Apps DirectX x86 Remote
+
+Name    : Microsoft .NET Host - 6.0.26 (x64)
+Vendor  : Microsoft Corporation
+Version : 48.104.7000
+Caption : Microsoft .NET Host - 6.0.26 (x64)
+
+Name    : usbredir
+Vendor  : SOMANSA CO,LTD
+Version : 2.0.109.23905
+Caption : usbredir
+
+Name    : AURA lighting effect add-on x64
+Vendor  : ASUSTek COMPUTER INC.
+Version : 0.0.44
+Caption : AURA lighting effect add-on x64
+
+Name    : Windows SDK Desktop Libs arm64
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Desktop Libs arm64
+
+Name    : Universal CRT Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Universal CRT Extension SDK
+
+Name    : Windows SDK Modern Non-Versioned Developer Tools
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Modern Non-Versioned Developer Tools
+
+Name    : Windows SDK Desktop Tools arm64
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Desktop Tools arm64
+
+Name    : Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.40.33816
+Vendor  : Microsoft Corporation
+Version : 14.40.33816
+Caption : Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.40.33816
+
+Name    : vs_filehandler_amd64
+Vendor  : Microsoft Corporation
+Version : 17.12.35410
+Caption : vs_filehandler_amd64
+
+Name    : Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Vendor  : Microsoft Corporation
+Version : 10.0.50908
+Caption : Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+
+Name    : Universal General MIDI DLS Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Universal General MIDI DLS Extension SDK
+
+Name    : Kits Configuration Installer
+Vendor  : Microsoft
+Version : 10.1.22621.3233
+Caption : Kits Configuration Installer
+
+Name    : Universal Holtek RGB DRAM
+Vendor  : PD
+Version : 1.0.0.7
+Caption : Universal Holtek RGB DRAM
+
+Name    : Windows IoT Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows IoT Extension SDK
+
+Name    : Windows SDK Desktop Headers x64
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Desktop Headers x64
+
+Name    : AMD User Experience Program Installer
+Vendor  : Advanced Micro Devices, Inc.
+Version : 2240.0.0.913
+Caption : AMD User Experience Program Installer
+
+Name    : Printer Universal v2 HBP Print Driver
+Vendor  : OEM
+Version : 2.15.7.0
+Caption : Printer Universal v2 HBP Print Driver
+
+Name    : WD_BLACK AN1500
+Vendor  : ENE TECHNOLOGY INC.
+Version : 1.0.14.0
+Caption : WD_BLACK AN1500
+
+Name    : vs_minshellinteropsharedmsi
+Vendor  : Microsoft Corporation
+Version : 17.12.35410
+Caption : vs_minshellinteropsharedmsi
+
+Name    : vs_githubprotocolhandlermsi
+Vendor  : Microsoft Corporation
+Version : 17.12.35410
+Caption : vs_githubprotocolhandlermsi
+
+Name    : EA app
+Vendor  : Electronic Arts
+Version : 12.221.0.5478
+Caption : EA app
+
+Name    : Windows SDK Desktop Libs x86
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Desktop Libs x86
+
+Name    : Windows App Certification Kit SupportedApiList x86
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows App Certification Kit SupportedApiList x86
+
+Name    : Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33816
+Vendor  : Microsoft Corporation
+Version : 14.40.33816
+Caption : Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33816
+
+Name    : Windows SDK Desktop Headers x86
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Desktop Headers x86
+
+Name    : Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.60610
+Vendor  : Microsoft Corporation
+Version : 11.0.60610
+Caption : Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.60610
+
+Name    : vs_minshellinteropmsi
+Vendor  : Microsoft Corporation
+Version : 16.10.31306
+Caption : vs_minshellinteropmsi
+
+Name    : Universal CRT Tools x86
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Universal CRT Tools x86
+
+Name    : Windows SDK Desktop Tools x64
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Desktop Tools x64
+
+Name    : Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+Vendor  : Microsoft Corporation
+Version : 12.0.21005
+Caption : Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005
+
+Name    : iCloud Outlook
+Vendor  : Apple Inc.
+Version : 14.2.0.108
+Caption : iCloud Outlook
+
+Name    : Adobe Acrobat (64-bit)
+Vendor  : Adobe
+Version : 24.005.20392
+Caption : Adobe Acrobat (64-bit)
+
+Name    : Adobe Refresh Manager
+Vendor  : Adobe Systems Incorporated
+Version : 1.8.0
+Caption : Adobe Refresh Manager
+
+Name    : Windows SDK Desktop Tools x86
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Desktop Tools x86
+
+Name    : Universal CRT Redistributable
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Universal CRT Redistributable
+
+Name    : ASUS AURA VGA Component
+Vendor  : ASUSTek COMPUTER INC. 
+Version : 0.0.4.3
+Caption : ASUS AURA VGA Component
+
+Name    : ROG Live Service
+Vendor  : ASUSTek COMPUTER INC.
+Version : 2.4.26.0
+Caption : ROG Live Service
+
+Name    : vs_minshellmsires
+Vendor  : Microsoft Corporation
+Version : 17.12.35410
+Caption : vs_minshellmsires
+
+Name    : Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+Vendor  : Microsoft Corporation
+Version : 9.0.30729.6161
+Caption : Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161
+
+Name    : Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+Vendor  : Microsoft Corporation
+Version : 12.0.21005
+Caption : Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005
+
+Name    : Python 3.11.4 Development Libraries (64-bit)
+Vendor  : Python Software Foundation
+Version : 3.11.4150.0
+Caption : Python 3.11.4 Development Libraries (64-bit)
+
+Name    : Windows SDK Desktop Headers arm
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Desktop Headers arm
+
+Name    : WinRT Intellisense Desktop - Other Languages
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : WinRT Intellisense Desktop - Other Languages
+
+Name    : Windows SDK for Windows Store Apps Libs
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK for Windows Store Apps Libs
+
+Name    : WinRT Intellisense IoT - Other Languages
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : WinRT Intellisense IoT - Other Languages
+
+Name    : Windows Subsystem for Linux Update
+Vendor  : Microsoft Corporation
+Version : 5.10.102.1
+Caption : Windows Subsystem for Linux Update
+
+Name    : Universal General MIDI DLS Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Universal General MIDI DLS Extension SDK
+
+Name    : WinRT Intellisense IoT - Other Languages
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : WinRT Intellisense IoT - Other Languages
+
+Name    : vs_vswebprotocolselectormsi
+Vendor  : Microsoft Corporation
+Version : 17.12.35410
+Caption : vs_vswebprotocolselectormsi
+
+Name    : WinAppDeploy
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : WinAppDeploy
+
+Name    : Microsoft .NET Host FX Resolver - 8.0.11 (x86)
+Vendor  : Microsoft Corporation
+Version : 64.44.23191
+Caption : Microsoft .NET Host FX Resolver - 8.0.11 (x86)
+
+Name    : AniMe Matrix MB EN
+Vendor  : ASUS
+Version : 1.0.1
+Caption : AniMe Matrix MB EN
+
+Name    : Windows SDK Modern Versioned Developer Tools
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Modern Versioned Developer Tools
+
+Name    : WinRT Intellisense PPI - Other Languages
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : WinRT Intellisense PPI - Other Languages
+
+Name    : Windows Subsystem for Linux
+Vendor  : Microsoft Corporation
+Version : 2.4.9.0
+Caption : Windows Subsystem for Linux
+
+Name    : Microsoft .NET Runtime - 7.0.15 (x86)
+Vendor  : Microsoft Corporation
+Version : 56.60.5674
+Caption : Microsoft .NET Runtime - 7.0.15 (x86)
+
+Name    : vs_minshellx64msi
+Vendor  : Microsoft Corporation
+Version : 17.12.35410
+Caption : vs_minshellx64msi
+
+Name    : Microsoft .NET Host FX Resolver - 7.0.15 (x86)
+Vendor  : Microsoft Corporation
+Version : 56.60.5674
+Caption : Microsoft .NET Host FX Resolver - 7.0.15 (x86)
+
+Name    : WinRT Intellisense PPI - en-us
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : WinRT Intellisense PPI - en-us
+
+Name    : vcpp_crt.redist.clickonce
+Vendor  : Microsoft Corporation
+Version : 14.29.30157
+Caption : vcpp_crt.redist.clickonce
+
+Name    : Application Verifier x64 External Package
+Vendor  : Microsoft
+Version : 10.1.19041.685
+Caption : Application Verifier x64 External Package
+
+Name    : Windows Desktop Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows Desktop Extension SDK
+
+Name    : Microsoft .NET Runtime - 8.0.11 (x86)
+Vendor  : Microsoft Corporation
+Version : 64.44.23191
+Caption : Microsoft .NET Runtime - 8.0.11 (x86)
+
+Name    : Microsoft .NET Framework 4 Multi-Targeting Pack
+Vendor  : Microsoft Corporation
+Version : 4.0.30319
+Caption : Microsoft .NET Framework 4 Multi-Targeting Pack
+
+Name    : AMD PSP Driver
+Vendor  : Advanced Micro Devices, Inc.
+Version : 5.27.0.0
+Caption : AMD PSP Driver
+
+Name    : Microsoft .NET Host - 7.0.15 (x86)
+Vendor  : Microsoft Corporation
+Version : 56.60.5674
+Caption : Microsoft .NET Host - 7.0.15 (x86)
+
+Name    : Windows SDK EULA
+Vendor  : Microsoft Corporations
+Version : 10.1.22621.3233
+Caption : Windows SDK EULA
+
+Name    : Windows Team Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows Team Extension SDK
+
+Name    : Windows SDK Modern Versioned Developer Tools
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Modern Versioned Developer Tools
+
+Name    : Windows SDK for Windows Store Managed Apps Libs
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK for Windows Store Managed Apps Libs
+
+Name    : AMD Ryzen Master
+Vendor  : Advanced Micro Devices, Inc.
+Version : 2.10.1.2287
+Caption : AMD Ryzen Master
+
+Name    : Microsoft .NET Runtime - 6.0.26 (x86)
+Vendor  : Microsoft Corporation
+Version : 48.104.7000
+Caption : Microsoft .NET Runtime - 6.0.26 (x86)
+
+Name    : ASUS Update Helper
+Vendor  : ASUSTeK Computer Inc.
+Version : 1.3.107.129
+Caption : ASUS Update Helper
+
+Name    : Windows SDK Facade Windows WinMD Versioned
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Facade Windows WinMD Versioned
+
+Name    : Windows IoT Extension SDK Contracts
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows IoT Extension SDK Contracts
+
+Name    : AMD_Chipset_Drivers
+Vendor  : Advanced Micro Devices, Inc.
+Version : 6.05.16.221
+Caption : AMD_Chipset_Drivers
+
+Name    : Windows SDK for Windows Store Apps Headers
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK for Windows Store Apps Headers
+
+Name    : WinAppDeploy
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : WinAppDeploy
+
+Name    : 
+Vendor  : 
+Version : 
+Caption : 
+
+Name    : Application Verifier x64 External Package (DesktopEditions)
+Vendor  : Microsoft
+Version : 10.1.22621.3233
+Caption : Application Verifier x64 External Package (DesktopEditions)
+
+Name    : Windows SDK DirectX x86 Remote
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK DirectX x86 Remote
+
+Name    : WinRT Intellisense IoT - en-us
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : WinRT Intellisense IoT - en-us
+
+Name    : Microsoft Visual C++ 2005 Redistributable (x64)
+Vendor  : Microsoft Corporation
+Version : 8.0.59192
+Caption : Microsoft Visual C++ 2005 Redistributable (x64)
+
+Name    : Windows App Certification Kit x64 (OnecoreUAP)
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows App Certification Kit x64 (OnecoreUAP)
+
+Name    : Windows SDK Desktop Headers arm64
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Desktop Headers arm64
+
+Name    : Microsoft Visual C++ 2022 X86 Additional Runtime - 14.40.33816
+Vendor  : Microsoft Corporation
+Version : 14.40.33816
+Caption : Microsoft Visual C++ 2022 X86 Additional Runtime - 14.40.33816
+
+Name    : Windows SDK for Windows Store Apps Metadata
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK for Windows Store Apps Metadata
+
+Name    : VS JIT Debugger
+Vendor  : Microsoft Corporation
+Version : 17.0.157.0
+Caption : VS JIT Debugger
+
+Name    : vs_filehandler_x86
+Vendor  : Microsoft Corporation
+Version : 17.12.35410
+Caption : vs_filehandler_x86
+
+Name    : WinRT Intellisense Mobile - en-us
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : WinRT Intellisense Mobile - en-us
+
+Name    : WinRT Intellisense UAP - Other Languages
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : WinRT Intellisense UAP - Other Languages
+
+Name    : Microsoft Windows Desktop Runtime - 3.1.32 (x86)
+Vendor  : Microsoft Corporation
+Version : 24.192.31915
+Caption : Microsoft Windows Desktop Runtime - 3.1.32 (x86)
+
+Name    : Universal CRT Headers Libraries and Sources
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Universal CRT Headers Libraries and Sources
+
+Name    : vs_communitymsires
+Vendor  : Microsoft Corporation
+Version : 16.10.31213
+Caption : vs_communitymsires
+
+Name    : WinRT Intellisense UAP - en-us
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : WinRT Intellisense UAP - en-us
+
+Name    : vs_minshellsharedmsi
+Vendor  : Microsoft Corporation
+Version : 17.12.35410
+Caption : vs_minshellsharedmsi
+
+Name    : Windows Team Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows Team Extension SDK
+
+Name    : Microsoft .NET Core Host - 3.1.32 (x86)
+Vendor  : Microsoft Corporation
+Version : 24.192.31915
+Caption : Microsoft .NET Core Host - 3.1.32 (x86)
+
+Name    : WinRT Intellisense PPI - Other Languages
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : WinRT Intellisense PPI - Other Languages
+
+Name    : VS Immersive Activate Helper
+Vendor  : Microsoft Corporation
+Version : 17.0.157.0
+Caption : VS Immersive Activate Helper
+
+Name    : Microsoft Visual Studio Setup Configuration
+Vendor  : Microsoft Corporation
+Version : 3.12.2140.44225
+Caption : Microsoft Visual Studio Setup Configuration
+
+Name    : Windows Desktop Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows Desktop Extension SDK
+
+Name    : Teams Machine-Wide Installer
+Vendor  : Microsoft Corporation
+Version : 1.4.0.19572
+Caption : Teams Machine-Wide Installer
+
+Name    : SDK ARM Additions
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : SDK ARM Additions
+
+Name    : Windows SDK Desktop Tools x86
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Desktop Tools x86
+
+Name    : Microsoft .NET Host FX Resolver - 6.0.16 (x64)
+Vendor  : Microsoft Corporation
+Version : 48.67.58427
+Caption : Microsoft .NET Host FX Resolver - 6.0.16 (x64)
+
+Name    : Windows SDK Desktop Tools arm64
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Desktop Tools arm64
+
+Name    : Windows SDK for Windows Store Apps DirectX x86 Remote
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK for Windows Store Apps DirectX x86 Remote
+
+Name    : AURA lighting effect add-on
+Vendor  : ASUSTek COMPUTER INC.
+Version : 0.0.44
+Caption : AURA lighting effect add-on
+
+Name    : Microsoft Visual C++ 2022 X64 Additional Runtime - 14.40.33816
+Vendor  : Microsoft Corporation
+Version : 14.40.33816
+Caption : Microsoft Visual C++ 2022 X64 Additional Runtime - 14.40.33816
+
+Name    : Windows SDK Facade Windows WinMD Versioned
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Facade Windows WinMD Versioned
+
+Name    : Windows SDK Desktop Headers arm64
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Desktop Headers arm64
+
+Name    : Git Extensions 4.1.0.16698
+Vendor  : Git Extensions Team
+Version : 4.1.0.16698
+Caption : Git Extensions 4.1.0.16698
+
+Name    : Universal CRT Redistributable
+Vendor  : Microsoft Corporation
+Version : 10.0.26624
+Caption : Universal CRT Redistributable
+
+Name    : Windows SDK Desktop Libs arm
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Desktop Libs arm
+
+Name    : AURA DRAM Component
+Vendor  : ASUS
+Version : 1.1.27
+Caption : AURA DRAM Component
+
+Name    : Windows SDK Signing Tools
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Signing Tools
+
+Name    : Microsoft Windows Desktop Runtime - 8.0.11 (x86)
+Vendor  : Microsoft Corporation
+Version : 64.44.23253
+Caption : Microsoft Windows Desktop Runtime - 8.0.11 (x86)
+
+Name    : Windows SDK for Windows Store Apps Contracts
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK for Windows Store Apps Contracts
+
+Name    : Windows Mobile Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows Mobile Extension SDK
+
+Name    : Python 3.11.4 Executables (64-bit)
+Vendor  : Python Software Foundation
+Version : 3.11.4150.0
+Caption : Python 3.11.4 Executables (64-bit)
+
+Name    : Windows SDK for Windows Store Apps Tools
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK for Windows Store Apps Tools
+
+Name    : Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030
+Vendor  : Microsoft Corporation
+Version : 11.0.61030
+Caption : Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030
+
+Name    : Windows SDK AddOn
+Vendor  : Microsoft Corporation
+Version : 10.1.0.0
+Caption : Windows SDK AddOn
+
+Name    : vs_CoreEditorFonts
+Vendor  : Microsoft Corporation
+Version : 17.5.33306
+Caption : vs_CoreEditorFonts
+
+Name    : Windows IoT Extension SDK Contracts
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows IoT Extension SDK Contracts
+
+Name    : Microsoft Windows Desktop Runtime - 6.0.26 (x64)
+Vendor  : Microsoft Corporation
+Version : 48.104.6996
+Caption : Microsoft Windows Desktop Runtime - 6.0.26 (x64)
+
+Name    : Windows SDK Desktop Libs x64
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Desktop Libs x64
+
+Name    : WinRT Intellisense IoT - en-us
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : WinRT Intellisense IoT - en-us
+
+Name    : ENE RGB HAL
+Vendor  : Ene Tech.
+Version : 1.1.53.0
+Caption : ENE RGB HAL
+
+Name    : Windows SDK Signing Tools
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Signing Tools
+
+Name    : ASUS AURA Extension Card HAL
+Vendor  : ASUSTeK COMPUTER INC.
+Version : 1.1.0.20
+Caption : ASUS AURA Extension Card HAL
+
+Name    : Python 3.11.4 Documentation (64-bit)
+Vendor  : Python Software Foundation
+Version : 3.11.4150.0
+Caption : Python 3.11.4 Documentation (64-bit)
+
+Name    : vs_minshellmsi
+Vendor  : Microsoft Corporation
+Version : 16.11.34902
+Caption : vs_minshellmsi
+
+Name    : Microsoft Windows Desktop Runtime - 6.0.26 (x86)
+Vendor  : Microsoft Corporation
+Version : 48.104.6996
+Caption : Microsoft Windows Desktop Runtime - 6.0.26 (x86)
+
+Name    : Windows SDK for Windows Store Apps
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK for Windows Store Apps
+
+Name    : Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664
+Vendor  : Microsoft Corporation
+Version : 12.0.40664
+Caption : Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664
+
+Name    : Windows SDK Desktop Libs x64
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Desktop Libs x64
+
+Name    : Patriot Viper M2 SSD RGB
+Vendor  : Patriot Memory
+Version : 1.1.0.3
+Caption : Patriot Viper M2 SSD RGB
+
+Name    : Windows SDK EULA
+Vendor  : Microsoft Corporations
+Version : 10.1.19041.685
+Caption : Windows SDK EULA
+
+Name    : Windows SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK
+
+Name    : AMD SBxxx SMBus Driver
+Vendor  : Advanced Micro Devices, Inc.
+Version : 5.12.0.44
+Caption : AMD SBxxx SMBus Driver
+
+Name    : Windows Mobile Extension SDK Contracts
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows Mobile Extension SDK Contracts
+
+Name    : AURA Service
+Vendor  : ASUSTeK Computer Inc.
+Version : 3.07.54
+Caption : AURA Service
+
+Name    : GameSDK Service
+Vendor  : ASUSTek COMPUTER INC.
+Version : 1.0.5.0
+Caption : GameSDK Service
+
+Name    : Windows SDK Desktop Headers x64
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK Desktop Headers x64
+
+Name    : ASUS AURA Motherboard HAL
+Vendor  : ASUSTeK COMPUTER INC.
+Version : 1.5.0.2
+Caption : ASUS AURA Motherboard HAL
+
+Name    : Windows SDK ARM Desktop Tools
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK ARM Desktop Tools
+
+Name    : Microsoft .NET Framework 4.7.2 Targeting Pack
+Vendor  : Microsoft Corporation
+Version : 4.7.03062
+Caption : Microsoft .NET Framework 4.7.2 Targeting Pack
+
+Name    : Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030
+Vendor  : Microsoft Corporation
+Version : 11.0.61030
+Caption : Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030
+
+Name    : Windows SDK ARM Desktop Tools
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK ARM Desktop Tools
+
+Name    : WinRT Intellisense UAP - Other Languages
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : WinRT Intellisense UAP - Other Languages
+
+Name    : ASUS AIOFan HAL
+Vendor  : ASUSTek COMPUTER INC.
+Version : 1.4.0.0
+Caption : ASUS AIOFan HAL
+
+Name    : WinRT Intellisense Mobile - en-us
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : WinRT Intellisense Mobile - en-us
+
+Name    : AMD StoreMI
+Vendor  : Advanced Micro Devices, Inc.
+Version : 2.1.0.218
+Caption : AMD StoreMI
+
+Name    : Windows Team Extension SDK Contracts
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows Team Extension SDK Contracts
+
+Name    : Patriot Viper DRAM RGB
+Vendor  : Patriot Memory
+Version : 1.0.9.8
+Caption : Patriot Viper DRAM RGB
+
+Name    : Universal CRT Redistributable
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Universal CRT Redistributable
+
+Name    : Microsoft .NET Host FX Resolver - 6.0.26 (x86)
+Vendor  : Microsoft Corporation
+Version : 48.104.7000
+Caption : Microsoft .NET Host FX Resolver - 6.0.26 (x86)
+
+Name    : Python 3.11.4 Standard Library (64-bit)
+Vendor  : Python Software Foundation
+Version : 3.11.4150.0
+Caption : Python 3.11.4 Standard Library (64-bit)
+
+Name    : Universal CRT Headers Libraries and Sources
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Universal CRT Headers Libraries and Sources
+
+Name    : Windows SDK Desktop Headers arm
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Desktop Headers arm
+
+Name    : MSI Development Tools
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : MSI Development Tools
+
+Name    : AMD PCI Driver
+Vendor  : Advanced Micro Devices, Inc.
+Version : 1.0.0.90
+Caption : AMD PCI Driver
+
+Name    : Windows SDK for Windows Store Apps Headers
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows SDK for Windows Store Apps Headers
+
+Name    : WinRT Intellisense Desktop - en-us
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : WinRT Intellisense Desktop - en-us
+
+Name    : Microsoft Visual Studio 2010 Tools for Office Runtime (x64) Language Pack - KOR
+Vendor  : Microsoft Corporation
+Version : 10.0.50903
+Caption : Microsoft Visual Studio 2010 Tools for Office Runtime (x64) Language Pack - KOR
+
+Name    : ASUS Ambient HAL
+Vendor  : ASUSTeK COMPUTER INC.
+Version : 4.2.0.0
+Caption : ASUS Ambient HAL
+
+Name    : Microsoft .NET Core Host FX Resolver - 3.1.32 (x86)
+Vendor  : Microsoft Corporation
+Version : 24.192.31915
+Caption : Microsoft .NET Core Host FX Resolver - 3.1.32 (x86)
+
+Name    : Kingston AURA DRAM Component
+Vendor  : KINGSTON COMPONENTS INC.
+Version : 1.1.36
+Caption : Kingston AURA DRAM Component
+
+Name    : ENE_EHD_M2_HAL
+Vendor  : ENE TECHNOLOGY INC.
+Version : 1.0.13.0
+Caption : ENE_EHD_M2_HAL
+
+Name    : Microsoft .NET Host FX Resolver - 6.0.26 (x64)
+Vendor  : Microsoft Corporation
+Version : 48.104.7000
+Caption : Microsoft .NET Host FX Resolver - 6.0.26 (x64)
+
+Name    : AMD GPIO2 Driver
+Vendor  : Advanced Micro Devices, Inc.
+Version : 2.2.0.133
+Caption : AMD GPIO2 Driver
+
+Name    : Python 3.11.4 pip Bootstrap (64-bit)
+Vendor  : Python Software Foundation
+Version : 3.11.4150.0
+Caption : Python 3.11.4 pip Bootstrap (64-bit)
+
+Name    : SDK ARM Redistributables
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : SDK ARM Redistributables
+
+Name    : Windows SDK Desktop Headers x86
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK Desktop Headers x86
+
+Name    : Windows Team Extension SDK Contracts
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows Team Extension SDK Contracts
+
+Name    : Microsoft .NET Host - 6.0.26 (x86)
+Vendor  : Microsoft Corporation
+Version : 48.104.7000
+Caption : Microsoft .NET Host - 6.0.26 (x86)
+
+Name    : Python 3.11.4 Utility Scripts (64-bit)
+Vendor  : Python Software Foundation
+Version : 3.11.4150.0
+Caption : Python 3.11.4 Utility Scripts (64-bit)
+
+Name    : Windows SDK DirectX x64 Remote
+Vendor  : Microsoft Corporation
+Version : 10.1.22621.3233
+Caption : Windows SDK DirectX x64 Remote
+
+Name    : Windows IoT Extension SDK
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : Windows IoT Extension SDK
+
+Name    : SQL Server 2019용 Microsoft System CLR Types
+Vendor  : Microsoft Corporation
+Version : 15.0.2000.5
+Caption : SQL Server 2019용 Microsoft System CLR Types
+
+Name    : ARMOURY CRATE Lite Service
+Vendor  : ASUS
+Version : 5.3.3
+Caption : ARMOURY CRATE Lite Service
+
+Name    : WinRT Intellisense PPI - en-us
+Vendor  : Microsoft Corporation
+Version : 10.1.19041.685
+Caption : WinRT Intellisense PPI - en-us
+
