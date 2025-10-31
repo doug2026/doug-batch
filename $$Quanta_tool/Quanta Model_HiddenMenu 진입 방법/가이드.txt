@@ -1,0 +1,9 @@
+1. Windows
+2. 4.EnableHiddenMenu.bat 실행 & 자동 재부팅
+   - NB2MFG1.exe /S m1 On
+3. gram 로고에서 재시작 (Ctrl + Alt + Del) 또는 Power Off/On
+4. gram 로고 화면에서 F3
+5. BIOS Setup Menu 진입
+   - Advanced Menu
+
+※ 이후 사용하지 않기 위해서는 2. 4.DisableHiddenMenu.bat 실행 & 자동 재부팅

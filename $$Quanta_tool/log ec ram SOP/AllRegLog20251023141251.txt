@@ -1,0 +1,1780 @@
+-------------- SMFI            0x1000 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1000    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1010    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1020    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1030    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1040    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1050    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1060    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1070    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1080    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1090    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- INTC            0x1100 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1100    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1110    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1120    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1130    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1140    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1150    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1160    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1170    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1180    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1190    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+11A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+11B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+11C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+11D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+11E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+11F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- EC2I             0x1200 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1200    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1210    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1220    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1230    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1240    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1250    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1260    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1270    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1280    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1290    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+12A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+12B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+12C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+12D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+12E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+12F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- KBC              0x1300 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1300    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1310    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1320    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1330    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1340    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1350    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1360    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1370    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1380    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1390    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+13A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+13B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+13C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+13D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+13E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+13F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SWUC          0x1400 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1400    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1410    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1420    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1430    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1440    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1450    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1460    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1470    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1480    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1490    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+14A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+14B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+14C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+14D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+14E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+14F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- PMC             0x1500 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1500    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1510    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1520    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1530    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1540    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1550    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1560    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1570    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1580    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1590    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+15A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+15B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+15C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+15D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+15E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+15F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- GPIO            0x1600 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1600    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1610    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1620    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1630    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1640    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1650    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1660    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1670    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1680    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1690    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+16A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+16B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+16C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+16D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+16E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+16F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- PS/2             0x1700 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1700    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1710    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1720    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1730    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1740    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1750    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1760    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1770    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1780    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1790    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+17A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+17B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+17C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+17D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+17E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+17F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- PWM            0x1800 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1800    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1810    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1820    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1830    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1840    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1850    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1860    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1870    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1880    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1890    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+18A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+18B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+18C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+18D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+18E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+18F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- ADC              0x1900 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1900    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1910    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1920    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1930    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1940    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1950    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1960    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1970    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1980    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1990    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+19A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+19B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+19C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+19D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+19E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+19F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- DAC              0x1A00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1A00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1A10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1A20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1A30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1A40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1A50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1A60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1A70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1A80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1A90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1AA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1AB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1AC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1AD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1AE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1AF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- WUC             0x1B00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1B00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1B10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1B20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1B30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1B40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1B50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1B60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1B70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1B80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1B90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1BA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1BB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1BC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1BD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1BE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1BF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SMBus          0x1C00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1C00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1C10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1C20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1C30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1C40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1C50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1C60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1C70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1C80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1C90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1CA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1CB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1CC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1CD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1CE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1CF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- KB Scan        0x1D00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1D00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1D10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1D20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1D30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1D40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1D50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1D60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1D70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1D80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1D90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1DA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1DB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1DC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1DD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1DE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1DF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- ECPM           0x1E00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1E00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1E10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1E20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1E30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1E40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1E50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1E60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1E70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1E80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1E90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1EA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1EB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1EC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1ED0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1EE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1EF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- ETWD           0x1F00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+1F00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1F10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1F20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1F30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1F40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1F50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1F60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1F70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1F80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1F90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1FA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1FB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1FC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1FD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1FE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+1FF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- GCTRL         0x2000 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2000    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2010    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2020    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2030    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2040    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2050    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2060    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2070    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2080    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2090    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- EGPC            0x2100 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2100    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2110    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2120    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2130    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2140    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2150    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2160    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2170    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2180    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2190    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+21A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+21B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+21C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+21D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+21E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+21F0    00 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- Batt.RAM     0x2200 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2200    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2210    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2220    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2230    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2240    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2250    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2260    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2270    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2280    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2290    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+22A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+22B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+22C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+22D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+22E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+22F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- CIR               0x2300 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2300    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2310    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2320    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2330    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2340    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2350    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2360    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2370    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2380    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2390    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+23A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+23B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+23C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+23D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+23E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+23F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- TMKBC        0x2400 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2400    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2410    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2420    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2430    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2440    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2450    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2460    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2470    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2480    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2490    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+24A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+24B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+24C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+24D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+24E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+24F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- DBGR           0x2500 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2500    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2510    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2520    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2530    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2540    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2550    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2560    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2570    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2580    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2590    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+25A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+25B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+25C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+25D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+25E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+25F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SSPI              0x2600 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2600    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2610    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2620    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2630    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2640    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2650    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2660    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2670    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2680    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2690    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+26A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+26B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+26C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+26D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+26E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+26F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- UART0         0x2700 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2700    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2710    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2720    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2730    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2740    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2750    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2760    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2770    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2780    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2790    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+27A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+27B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+27C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+27D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+27E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+27F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- UART1         0x2800 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2800    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2810    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2820    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2830    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2840    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2850    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2860    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2870    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2880    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2890    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+28A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+28B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+28C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+28D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+28E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+28F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- TMR             0x2900 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2900    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2910    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2920    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2930    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2940    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2950    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2960    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2970    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2980    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2990    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+29A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+29B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+29C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+29D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+29E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+29F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- HWM(SIO)  0x2A00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2A00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2A10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2A20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2A30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2A40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2A50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2A60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2A70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2A80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2A90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2AA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2AB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2AC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2AD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2AE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2AF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- GPIO(SIO)   0x2C00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2C00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2C10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2C20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2C30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2C40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2C50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2C60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2C70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2C80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2C90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2CA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2CB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2CC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2CD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2CE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2CF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- E-Flash        0x2D00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2D00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2D10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2D20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2D30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2D40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2D50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2D60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2D70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2D80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2D90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2DA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2DB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2DC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2DD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2DE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2DF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- CEC              0x2E00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2E00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2E10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2E20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2E30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2E40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2E50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2E60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2E70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2E80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2E90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2EA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2EB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2EC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2ED0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2EE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2EF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- USBSW        0x2F00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+2F00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2F10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2F20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2F30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2F40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2F50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2F60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2F70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2F80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2F90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2FA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2FB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2FC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2FD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2FE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+2FF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- PECI             0x3000 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3000    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3010    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3020    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3030    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3040    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3050    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3060    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3070    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3080    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3090    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- ESPI0            0x3100 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3100    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3110    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3120    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3130    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3140    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3150    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3160    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3170    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3180    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3190    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+31A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+31B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+31C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+31D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+31E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+31F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- ESPI1            0x3200 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3200    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3210    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3220    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3230    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3240    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3250    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3260    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3270    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3280    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3290    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+32A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+32B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+32C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+32D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+32E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+32F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- ESPI2            0x3300 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3300    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3310    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3320    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3330    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3340    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3350    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3360    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3370    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3380    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3390    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+33A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+33B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+33C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+33D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+33E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+33F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- ESPI3            0x3400 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3400    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3410    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3420    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3430    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3440    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3450    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3460    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3470    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3480    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3490    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+34A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+34B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+34C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+34D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+34E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+34F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SMB1            0x3500 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3500    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3510    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3520    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3530    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3540    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3550    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3560    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3570    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3580    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3590    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+35A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+35B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+35C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+35D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+35E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+35F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SMB2            0x3600 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3600    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3610    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3620    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3630    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3640    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3650    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3660    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3670    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3680    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3690    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+36A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+36B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+36C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+36D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+36E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+36F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- USBPD0       0x3700 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3700    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3710    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3720    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3730    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3740    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3750    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3760    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3770    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3780    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3790    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+37A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+37B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+37C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+37D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+37E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+37F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- USBPD1       0x3800 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3800    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3810    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3820    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3830    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3840    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3850    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3860    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3870    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3880    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3890    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+38A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+38B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+38C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+38D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+38E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+38F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- LED DOTMTX 0x3900 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3900    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3910    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3920    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3930    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3940    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3950    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3960    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3970    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3980    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3990    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+39A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+39B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+39C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+39D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+39E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+39F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- LED STRIP   0x3A00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3A00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3A10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3A20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3A30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3A40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3A50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3A60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3A70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3A80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3A90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3AA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3AB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3AC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3AD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3AE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3AF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- USBPD2      0x3B00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3B00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3B10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3B20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3B30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3B40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3B50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3B60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3B70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3B80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3B90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3BA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3BB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3BC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3BD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3BE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3BF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- CRYPTO      0x3C00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3C00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3C10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3C20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3C30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3C40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3C50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3C60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3C70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3C80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3C90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3CA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3CB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3CC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3CD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3CE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3CF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- UART5          0x3D00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3D00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3D10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3D20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3D30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3D40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3D50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3D60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3D70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3D80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3D90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3DA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3DB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3DC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3DD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3DE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3DF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- GPIO1          0x3E00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3E00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3E10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3E20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3E30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3E40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3E50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3E60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3E70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3E80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3E90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3EA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3EB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3EC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3ED0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3EE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3EF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- INTC            0x3F00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+3F00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3F10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3F20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3F30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3F40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3F50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3F60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3F70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3F80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3F90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3FA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3FB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3FC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3FD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3FE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+3FF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SMB1           0x4300 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+4300    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4310    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4320    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4330    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4340    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4350    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4360    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4370    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4380    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4390    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+43A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+43B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+43C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+43D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+43E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+43F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SMB2           0x4400 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+4400    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4410    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4420    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4430    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4440    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4450    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4460    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4470    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4480    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4490    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+44A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+44B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+44C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+44D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+44E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+44F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SMB3           0x4500 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+4500    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4510    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4520    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4530    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4540    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4550    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4560    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4570    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4580    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+4590    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+45A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+45B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+45C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+45D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+45E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+45F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- uC SFR         0x8000 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+8000    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+8010    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+8020    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+8030    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+8040    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+8050    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+8060    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+8070    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+8080    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+8090    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- uC RAM       0xE000 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+E000    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E010    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E020    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E030    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E040    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E050    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E060    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E070    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E080    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E090    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAM0         0x0000 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0000    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0010    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0020    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0030    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0040    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0050    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0060    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0070    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0080    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0090    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+00A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+00B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+00C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+00D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+00E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+00F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAM1         0x0100 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0100    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0110    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0120    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0130    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0140    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0150    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0160    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0170    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0180    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0190    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+01A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+01B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+01C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+01D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+01E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+01F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAM2         0x0200 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0200    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0210    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0220    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0230    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0240    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0250    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0260    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0270    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0280    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0290    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+02A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+02B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+02C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+02D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+02E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+02F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAM3         0x0300 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0300    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0310    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0320    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0330    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0340    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0350    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0360    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0370    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0380    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0390    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+03A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+03B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+03C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+03D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+03E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+03F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAM4         0x0400 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0400    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0410    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0420    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0430    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0440    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0450    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0460    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0470    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0480    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0490    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+04A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+04B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+04C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+04D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+04E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+04F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAM5         0x0500 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0500    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0510    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0520    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0530    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0540    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0550    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0560    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0570    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0580    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0590    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+05A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+05B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+05C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+05D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+05E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+05F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAM6         0x0600 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0600    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0610    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0620    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0630    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0640    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0650    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0660    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0670    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0680    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0690    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+06A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+06B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+06C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+06D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+06E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+06F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAM7         0x0700 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0700    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0710    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0720    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0730    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0740    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0750    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0760    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0770    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0780    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0790    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+07A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+07B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+07C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+07D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+07E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+07F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAM8         0x0800 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0800    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0810    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0820    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0830    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0840    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0850    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0860    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0870    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0880    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0890    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+08A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+08B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+08C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+08D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+08E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+08F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAM9         0x0900 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0900    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0910    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0920    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0930    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0940    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0950    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0960    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0970    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0980    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0990    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+09A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+09B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+09C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+09D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+09E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+09F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAMA        0x0A00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0A00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0A10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0A20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0A30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0A40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0A50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0A60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0A70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0A80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0A90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0AA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0AB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0AC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0AD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0AE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0AF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAMB        0x0B00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0B00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0B10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0B20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0B30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0B40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0B50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0B60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0B70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0B80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0B90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0BA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0BB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0BC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0BD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0BE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0BF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAMC        0x0C00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0C00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0C10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0C20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0C30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0C40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0C50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0C60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0C70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0C80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0C90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0CA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0CB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0CC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0CD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0CE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0CF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAMD        0x0D00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0D00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0D10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0D20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0D30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0D40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0D50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0D60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0D70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0D80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0D90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0DA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0DB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0DC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0DD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0DE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0DF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAME         0x0E00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0E00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0E10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0E20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0E30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0E40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0E50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0E60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0E70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0E80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0E90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0EA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0EB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0EC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0ED0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0EE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0EF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+-------------- SRAMF         0x0F00 --------------
+	00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+0F00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0F10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0F20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0F30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0F40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0F50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0F60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0F70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0F80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0F90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0FA0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0FB0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0FC0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0FD0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0FE0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+0FF0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         UART1          ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         UART2          ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         LPT                ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         SWUC           ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         KBC_MS       ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         KBC_KB         ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         UART3          ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         UART4          ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         CIR                ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         UART5          ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         UART6          ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         SMFI             ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         BRAM           ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         PMC1            ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         PMC2            ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         SPI                  ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         PECI               ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         PMC3            ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         PMC4            ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         PMC5            ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+
+---------------         CAN_BUS     ----------------
+      00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+
+00    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+10    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+20    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+30    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+40    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+50    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+60    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+70    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+80    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+90    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+A0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+B0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+C0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+D0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+E0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+F0    ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+

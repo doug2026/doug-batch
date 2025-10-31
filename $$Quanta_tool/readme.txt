@@ -1,0 +1,130 @@
+계속하려면 아무 키나 누르십시오 . . . 
+계속하려면 아무 키나 누르십시오 . . . 
+계속하려면 아무 키나 누르십시오 . . . 
+계속하려면 아무 키나 누르십시오 . . . 
+계속하려면 아무 키나 누르십시오 . . . 
+::NB2MFG1 : 1.20 (For Thirdwave Windows)
+::Copyright 2017 Quanta - 2017/07/03~~ 
+
+
+
+  UEFI BIOS MFG Common Interface ver 1.00
+
+?, /H                     Help screen
+R                         Read
+S                         Write, Should be with index ON or OFF
+/R BS                     Get Boot Sequence
+/S BS                     Set Boot Sequence
+/S BS DF                  Set Default Boot Sequence
+/R WL                     Get WLAN Status
+/R BT                     Get BlueTooth Status
+/R MD                     Get Model Type
+/R BIV                    Get BIOS Version Information
+/R MCV                    Get Manufacture Common Interface Version Information
+/R PN2                    Get Project Name
+/R MA                     Get MAC ID
+/R KBV                    Get KBC Version Information
+/R SDC                    Get Shut Down Code
+/S WL  "ON/OFF"           Set WLAN ON or OFF
+/S BT  "ON/OFF"           Set BT ON or OFF
+/S RFD "ON/OFF"           Unlock or Lock RFID
+/S PN2                    Set Project Name
+/R FD                     Get Family Name
+/S FD                     Set Family Name
+/R FF                     Get Function Flag
+/S SL                     Enable SLP2
+/S CL                     Disable SLP2
+/R UU                     Get UUID Status
+/S UU                     Set UUID
+/R LS                     Get Lenovo Serial Number Information(SMBIOST2)
+/S LS  "Invalid"          Set(Write) Lenovo Serial Number(SMBIOST2)
+/R PN                     Get Product Name String
+/S PN  "Invalid"          Set Product Name String
+/R MT                     Get MTM String
+/S MT                     Set MTM String
+/R BR                     Get Brand Type
+/S BR  "C"                Set Brand Type
+/R KB                     Get Keyboard ID
+/S KB  "K"                Set Keyboard ID
+/R EP                     Get EPA Flag
+/S EP  "E"                Set EPA Flag
+/R LO                     Get LOGO Flag
+/S LO  "L"                Set LOGO Flag
+/R 13                     Get 1394 UUID
+/S 13  "1122334455667788" Set 1394 UUID
+/R SN                     Get Mother Board Serial Number
+/S SN  "Invalid"          Set Mother Board Serial Number
+/S XP  "ON/OFF"           Set or Clear XP Flag
+/R IF                     Get IFFS Flag Status
+/R IF                     Get IFFS Flag Status
+/R AO                     Get AOAC Flag Status
+/S AO  "ON/OFF"           Set or Clear AOAC Flag
+/S CV                     Clear Variable
+/R RFD                    Check RFID Status
+/R AT                     Check Asset Tag
+/R BN                     Check Brand Name
+/R BL                     Check Billed Type
+/S AT                     Set Asset Tag
+/S BN                     Set Brand Name
+/S BL                     Set Billed Type
+/S MA  "AABBCCDDEEFF"     Set MAC ID
+/S FF                     Set Function Flag
+/R EDI                    Check Panel EDID
+/S UEB "ON/OFF"           Set UEFI Boot
+/S LEB                     Set Boot mode to Legacy
+/R MF                     Get MACID Flag Status Information
+/S MF  "ON/OFF"           Set or Clear MACID Flag
+/S SSB "ON/OFF"           Enable or Didable Secure Boot
+/S ULB [TYPE]             Set Legacy,UEFI or Both Boot(1=Legacy,2=UEFI,3=BOTH)
+/R SSB                    Get Secure Boot Option Status Information
+/R OSP                    Get OS PN Number
+/S OSP  "Invalid"          Set OS PN Number
+/R CKB                    Get MB Board ID
+/R MAI                    Get I/O Space MAC Address
+/R MAF                    Get Manufacturer Name
+/S MAF                    Set Manufacturer Name
+/R OSS                    Get OS Descriptor
+/S OSS  "Invalid"          Set OS Descriptor
+/R SFD                     Get Secure Flash Disable Status Information
+/S SFD  "ON/OFF"           Set or Clear Secure Flash Disable Flag
+/R MN                     Get Machine Serial Number
+/S MN  "Invalid"          Set Machine Serial Number
+/R CNV                    Get MB Board NV type
+/S MEU                    Set ME unlock for ME update
+/S MEL                    Set ME lock for ME update
+/R M1                     Get M1 BIOS Support Status Information
+/S M1  "ON/OFF"           계속하려면 아무 키나 누르십시오 . . . 
+계속하려면 아무 키나 누르십시오 . . . 
+Set or Clear M1 BIOS Support Flag
+/R AC                     Get AC status
+/R EDT                    Check Panel EDID Type
+/R GBT                     Get Boot Type
+/S DAB                     Set Boot mode to Dual
+/S ADT                     Set Adapter Type into EEPROM
+/R ADT                     Read Adapter Type from EEPROM
+/R OID                     Read OemID from EEPROM
+/R OTI                     Read OemTableID from EEPROM
+/S OID                     Write OemID into EEPROM
+/S OTI                     Write OemTableID into EEPROM
+/R MBM                    Get Type 2 Manufacturer Name
+/S MBM                    Set Type 2 Manufacturer Name
+/R MCM                    Get Type 3 Manufacturer Name
+/S MCM                    Set Type 3 Manufacturer Name
+/R FCB                    Get First Char of Bios Version
+/S FCB                    Set First Char of Bios Version
+/R T1V                    Get Type1 Version data
+/S T1V                    Set Type1 Version data
+/R T2V                    Get Type2 Version data
+/S T2V                    Set Type2 Version data
+/R T3V                    Get Type3 Version data
+/S T3V                    Set Type3 Version data
+/R T3S                    Get Type3 Serial Number
+/S T3S                    Set Type3 Serial Number
+/R SU1                   Get Type1 SKU Number
+/S SU1                   Set Type1 SKU Number
+/R BV0                   Get Type0 BIOS Vendor
+/S BV0                   Set Type0 BIOS Vendor
+/R DYS                   Get Audio Dolby flag
+/S DYS                   Set Audio Dolby flag
+
+Invalid Command
